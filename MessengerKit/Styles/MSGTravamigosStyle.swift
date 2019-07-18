@@ -31,7 +31,7 @@ public struct MSGTravamigosStyle: MSGMessengerStyle {
     
     public var inputPlaceholderTextColor: UIColor = .lightGray
     
-    public var outgoingTextColor: UIColor = .white
+    public var outgoingTextColor: UIColor = .darkGray
     
     public var incomingTextColor: UIColor = .darkGray
     
@@ -76,8 +76,8 @@ public struct MSGTravamigosStyle: MSGMessengerStyle {
     
     /// Colors for the gradient on outgoing bubbles
     public var outgoingGradient: [CGColor] = [
-        UIColor(red:1.00, green:0.30, blue:0.13, alpha:1.00).cgColor,
-        UIColor(red:0.89, green:0.08, blue:0.46, alpha:1.00).cgColor
+        UIColor.white.cgColor,
+        UIColor.white.cgColor
     ]
     
     /// Colors for the gradient on incoming bubbles
